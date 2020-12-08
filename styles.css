@@ -1,0 +1,32 @@
+html > body div#bulleaide {
+	z-index: 10000;
+	position: fixed;
+	right: 5%;
+	bottom: 70px;
+	zoom: 1;
+	width: 200px;
+}
+
+html > body div#bulleaide button {
+	outline: none;
+}
+
+html > body div#bulleaide button#bullebouton {
+	padding: 25px 25px;
+	background-color: mediumaquamarine;
+	border-radius: 50%;
+	border: none;
+	box-shadow: 0 0 8px rgba(0,0,0,0.28);
+	font-size: 1.2em;
+	font-weight: bold !important;
+	color: rgba(0,0,0,0.4);
+}
+
+html > body div#bulleaide div#bullemenuprincipal button {
+	width: 160px !important;
+	background-color: rgba(0,0,0,0.6);
+}
+
+html > body div#bulleaide div#bullemenuprincipal button path {
+	fill: white;
+}
